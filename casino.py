@@ -88,4 +88,13 @@ def get_submodules():
     return modules_list
 
 if __name__ == "__main__":
-    module(1)
+    '''
+    client_socket = socket(AF_INET, SOCK_STREAM)  # Create a socket object
+    client_socket.connect(("127.0.0.1", 12345))  # Connect to the game server (adjust IP & port)
+
+    terminal = Terminal()  # Initialize Terminal object
+    pid_val = os.getpid()  # Get process ID
+
+    module(client_socket, terminal, pid_val)
+    '''
+
